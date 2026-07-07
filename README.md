@@ -1,5 +1,13 @@
 # Security & Privacy Compliance Tracker
 
+*Run your ISO 27001 / SOC 2 / GDPR / NIST / OWASP / PCI / Israel-PPL compliance from plain Markdown + git, with a local web app. No SaaS — nothing leaves your machine.*
+
+![local-first](https://img.shields.io/badge/local--first-127.0.0.1-0b7a5b)
+![node](https://img.shields.io/badge/node-%E2%89%A518-3c873a)
+![i18n](https://img.shields.io/badge/i18n-EN%20%C2%B7%20HE%20%C2%B7%20ES-0e6ba8)
+![frameworks](https://img.shields.io/badge/frameworks-10-5b6b78)
+![audit log](https://img.shields.io/badge/audit%20log-git-6f42c1)
+
 An open-source, **local-first** compliance tracker for a software-development company that also runs
 **SaaS handling client data**. The state lives in **plain Markdown** (`checklists/`), **git** is the
 tamper-evident audit log (*who did what, when*), and an included **local web app** gives you a
@@ -9,6 +17,14 @@ editing only your local files.
 ```bash
 npm install && npm start     # opens http://localhost:4181 in your browser
 ```
+
+![Dashboard — framework-first sidebar, per-regulation progress, ETA projection, and per-database Israeli privacy management](docs/screenshot-dashboard.png)
+
+<details><summary><b>First-run onboarding</b> — pick the frameworks that apply (screenshot)</summary>
+
+![Onboarding: choose which frameworks apply to you](docs/screenshot-onboarding.png)
+
+</details>
 
 Covers **ISO 27001:2022, SOC 2, NIST CSF 2.0, NIST 800-53, OWASP (ASVS/Top 10/SAMM/LLM), GDPR,
 Israel PPL (Amendment 13), PCI DSS 4.0, HIPAA** — enable only the ones that apply to you. Multilingual
