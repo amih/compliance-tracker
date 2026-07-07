@@ -1,0 +1,18 @@
+[
+  { "theme": "Access control & least privilege", "iso": ["A.5.15", "A.5.18", "A.8.3"], "soc2": ["CC6.1", "CC6.3"], "nist80053": ["AC-2", "AC-3", "AC-6"], "csf": ["PR.AA-05"], "pci": ["7.2", "7.3"], "gdpr": ["Art 32"], "israel": ["§8 Access permissions"] },
+  { "theme": "MFA & strong authentication", "iso": ["A.5.16", "A.5.17", "A.8.5"], "soc2": ["CC6.1"], "nist80053": ["IA-2", "IA-5"], "csf": ["PR.AA-03"], "pci": ["8.3", "8.4", "8.5"], "gdpr": ["Art 32"], "israel": ["§9 Identification & authentication"] },
+  { "theme": "Encryption (rest & transit) + key management", "iso": ["A.8.24"], "soc2": ["CC6.1"], "nist80053": ["SC-8", "SC-12", "SC-13", "SC-28"], "csf": ["PR.DS-01", "PR.DS-02"], "pci": ["3.5", "3.6", "3.7", "4.2"], "gdpr": ["Art 32"], "israel": ["§14 Communications security"] },
+  { "theme": "Logging & monitoring", "iso": ["A.8.15", "A.8.16"], "soc2": ["CC7.2"], "nist80053": ["AU-2", "AU-6", "AU-12"], "csf": ["DE.CM-01", "PR.PS-04"], "pci": ["10.2", "10.4"], "gdpr": ["Art 32"], "israel": ["§10 Access control & logging"] },
+  { "theme": "Vulnerability management & patching", "iso": ["A.8.8"], "soc2": ["CC7.1"], "nist80053": ["RA-5", "SI-2"], "csf": ["ID.RA-01", "PR.PS-02"], "pci": ["6.3", "11.3"], "gdpr": ["Art 32"], "israel": ["§13 Secure & updated system management"] },
+  { "theme": "Penetration testing", "iso": ["A.8.29"], "soc2": ["CC7.1"], "nist80053": ["CA-8"], "csf": ["ID.IM-02"], "pci": ["11.4"], "gdpr": ["Art 32"], "israel": ["§16 Periodic audits (18-mo pen test)"] },
+  { "theme": "Risk assessment", "iso": ["Clause 6", "A.5.7"], "soc2": ["CC3.1", "CC3.2"], "nist80053": ["RA-3"], "csf": ["ID.RA"], "pci": ["12.3"], "gdpr": ["Art 35 (DPIA)"], "israel": ["§5 Risk survey"] },
+  { "theme": "Incident response", "iso": ["A.5.24", "A.5.26"], "soc2": ["CC7.3", "CC7.4"], "nist80053": ["IR-4", "IR-8"], "csf": ["RS.MA-01"], "pci": ["12.10"], "gdpr": ["Art 33", "Art 34"], "israel": ["§11 Security-event documentation"] },
+  { "theme": "Backup & disaster recovery", "iso": ["A.8.13", "A.5.29", "A.5.30"], "soc2": ["A1 (Availability)"], "nist80053": ["CP-9", "CP-10"], "csf": ["PR.DS-11", "RC.RP-01"], "pci": ["—"], "gdpr": ["Art 32 (resilience)"], "israel": ["§18 Backup & recovery"] },
+  { "theme": "Vendor / supplier management", "iso": ["A.5.19", "A.5.20", "A.5.23"], "soc2": ["CC9.2"], "nist80053": ["SR-3", "SR-6"], "csf": ["GV.SC"], "pci": ["12.8"], "gdpr": ["Art 28 (DPA)"], "israel": ["§15 Outsourcing"] },
+  { "theme": "Security awareness training", "iso": ["A.6.3"], "soc2": ["CC1.4", "CC2.2"], "nist80053": ["AT-2", "AT-3"], "csf": ["PR.AT-01"], "pci": ["12.6"], "gdpr": ["Art 39"], "israel": ["§7 Personnel security"] },
+  { "theme": "Change management", "iso": ["A.8.32"], "soc2": ["CC8.1"], "nist80053": ["CM-3"], "csf": ["PR.PS-01"], "pci": ["6.5"], "gdpr": ["Art 25"], "israel": ["§13 Secure system management"] },
+  { "theme": "Data classification & retention", "iso": ["A.5.12", "A.8.10"], "soc2": ["CC2.1", "C1"], "nist80053": ["RA-2", "SI-12"], "csf": ["ID.AM-05", "ID.AM-07"], "pci": ["3.2"], "gdpr": ["Art 5"], "israel": ["§2 DB definitions (levels)"] },
+  { "theme": "Access reviews (periodic)", "iso": ["A.5.18"], "soc2": ["CC6.2"], "nist80053": ["AC-2"], "csf": ["PR.AA-05"], "pci": ["7.2.4"], "gdpr": ["Art 5(f)"], "israel": ["§8 Access review"] },
+  { "theme": "Secure software development", "iso": ["A.8.25", "A.8.28"], "soc2": ["CC8.1"], "nist80053": ["SA-3", "SA-11"], "csf": ["PR.PS-06"], "pci": ["6.2"], "gdpr": ["Art 25"], "israel": ["§13"] },
+  { "theme": "Physical security", "iso": ["A.7.1", "A.7.2"], "soc2": ["CC6.4"], "nist80053": ["PE-2", "PE-3"], "csf": ["PR.AA-06"], "pci": ["9.2", "9.3"], "gdpr": ["Art 32"], "israel": ["§6 Physical & environmental"] }
+]

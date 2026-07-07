@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Compliance Tracker</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <header class="topbar">
+            <div class="brand"><span class="dot"></span> <span id="appName">Compliance Tracker</span> <span class="pill" id="privateBadge" style="margin-inline-start:8px"></span></div>
+            <div class="search"><input id="search" type="search" autocomplete="off" /><div id="searchResults" class="search-results"></div></div>
+            <select id="langSel" class="langsel" title="Language"></select>
+            <div id="gitPill" class="pill" title="git status">…</div>
+        </header>
+        <div class="layout">
+            <nav class="sidebar" id="sidebar"></nav>
+            <main id="main"><div class="loading">Loading…</div></main>
+        </div>
+        <div id="toast" class="toast"></div>
+        <script src="/app.js"></script>
+    </body>
+</html>

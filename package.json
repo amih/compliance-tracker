@@ -1,0 +1,13 @@
+{
+  "name": "compliance-tracker-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local web app to manage the compliance checklists — edit, dashboard, overdue, Gantt, offboarding, and git.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
